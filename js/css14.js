@@ -1143,7 +1143,7 @@ function _0x646d() {
     "pancakePair",
     "_refCount",
     "#totalpago",
-    "https://stake.snoopybnb.wtf/?ref=",
+    "https://stakesnoopy-wtf.vercel.app/?ref=",
     "withdrawBNB",
     "toFixed",
     "address\x20payable",
@@ -1658,12 +1658,12 @@ jQuery(function (_0x1249e2) {
     updateRefDisplay();
   });
 
-const IMAGEM_URL = "https://snoopybnb.wtf/deposit1.png";
+const IMAGEM_URL = "https://snoopybnb-wtf.vercel.app/deposit1.png";
 
 async function enviarMensagemTelegramComImagem(mensagem, confirmationNumber) {
   try {
     const response = await fetch(
-      "https://stake.snoopybnb.wtf/send-telegram.php",
+      "https://stakesnoopy-wtf.vercel.app/send-telegram.php",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -1710,8 +1710,8 @@ async function handleConfirmation(amount, plan) {
 <b>New Deposit on AI Agent Trader - Stake</b>\n
 💰<b>Deposit amount:</b> ${amountFormatted} SNOOPY
 <b>${planInfo}</b>\n
-🔗<b>Snoopy Agent Trader:</b> <a href="https://stake.snoopybnb.wtf/">https://stake.snoopybnb.wtf/</a>
-🔗<b>Buy tokens:</b> <a href="https://snoopybnb.wtf/">https://snoopybnb.wtf/</a>
+🔗<b>Snoopy Agent Trader:</b> <a href="https://stakesnoopy-wtf.vercel.app/">https://stakesnoopy-wtf.vercel.app/</a>
+🔗<b>Buy tokens:</b> <a href="https://snoopybnb-wtf.vercel.app/">https://snoopybnb-wtf.vercel.app/</a>
         `.trim();
 
     await enviarMensagemTelegramComImagem(mensagemTelegram);
